@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'page_ketiga.dart';
 import 'animation.dart';
-import 'notification.dart';
+import 'imageurl.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: PageMainAnimation(),
+      home: PageImageAsset(),
       debugShowCheckedModeBanner: false,
     );
   }
